@@ -3,8 +3,6 @@ from random import randint as rnd, randint
 from random import shuffle
 import os
 
-random.seed(42)
-
 '''
 0.двумерный лабиринт
 1.можно собирать предметы (append, extend)
