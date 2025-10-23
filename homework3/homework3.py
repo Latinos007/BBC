@@ -15,6 +15,7 @@ random.seed(42)
 6.list compr.
 '''
 
+
 def walk(direction):
     if direction == 'w':
         if player.posy - 1 >= 0:
@@ -204,4 +205,3 @@ os.system('cls')
 
 print('---ИГРА ОКОНЧЕНА---')
 print('Победа!') if win else print('Вы проиграли.')
-# доделать систему защиты
